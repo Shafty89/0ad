@@ -1,0 +1,149 @@
+{
+	"Code": "gaul",
+	"Culture": "celt",
+	"Name": "Vikings",
+	"Emblem": "session/portraits/emblems/emblem_vikings.png",
+	"History": "Norse people primarily from southern Scandinavia. From the late 8th to late 11th centuries, Vikings raided and traded from their Northern European homelands across wide areas of Europe, and explored westwards to Iceland, Greenland, and Vinland (Wikipedia, Vikings)",
+	"Music":[
+			{"File":"Celtic_Pride.ogg", "Type":"peace"},
+			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
+			{"File":"Harvest_Festival.ogg", "Type":"peace"},
+			{"File":"Water's_Edge.ogg", "Type":"peace"},
+			{"File":"Sunrise.ogg", "Type":"peace"}
+		],
+	"Factions":
+	[
+		{
+			"Name": "Vikings",
+			"Description": "The Vikings of Norse.",
+			"Technologies":
+			[
+				{
+					"Name": "Sevili Dusios",
+					"History": "The Vikings took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect was very frightening.",
+					"Description": "Increased attack and movement rate for melee soldiers."
+				},
+				{
+					"Name": "Vae Victis",
+					"History": "Woe to the Defeated! The Vikings live by raiding!",
+					"Description": "A set amount of metal and food from every structure destroyed or captured."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Erik the Red",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Erik the Red is a figure who embodies the Vikings’ bloodthirsty reputation more completely than most. Ultimately, Erik ended up founding Greenland, but that was only after he’d been banished from Iceland for murdering several men."
+				},
+				{
+					"Name": "Leif Erikson",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Leif is generally considered to have been the first European to set foot in North America, a full 500 years before Christopher Columbus. The son of Erik the Red, Leif is thought to have arrived in the New World in around 1000, having ventured off course en route to Greenland. His crew set up camp in a place he dubbed “Vinland”, thought to be Newfoundland."
+				},
+				{
+					"Name": "Ragnar Lothbrok",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Norse Viking hero, as well as Danish and Swedish King, known from Viking Age Old Norse poetry, Icelandic stories, and near contemporary chronicles. According to the traditional literature, Ragnar Lodbrok distinguished himself by many raids against the British Isles and Holy Roman Empire during the 9th century."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Ardiosmanae",
+			"History": "Represents Celtic farming methods. ",
+			"Description": "Enhanced food gained from ranching and farming. "
+		},
+		{
+			"Name": "Deas Celtica",
+			"History": "Celtic religion and druidry inspired their warlike mindset. ",
+			"Description": "Druids increase attack rates of soldiers near them slightly."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Druids",
+			"History": "The Druids of the Celts maintained an organized religion that advanced the technology of their people even during wartime.",
+			"Description": "Allied Healers −20% resource costs."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Melonas",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Celts developed the first rotary flour mill.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/gaul_wallset_stone"
+	],
+	"StartEntities":
+	[
+    {
+      "Template": "structures/gaul_civil_centre"
+    },
+		{
+			"Template": "units/gaul_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/gaul_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/gaul_infantry_javelinist_b",
+			"Count": 2
+		},
+    {
+      "Template": "units/gaul_cavalry_javelinist_b"
+    }
+
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/battle_line",
+		"special/formations/skirmish",
+		"special/formations/wedge"
+	],
+	"AINames":
+	[
+		"Erik",
+		"Leif",
+		"Freydis",
+		"Ragnar",
+		"Bjorn",
+		"Gunnar",
+		"Ivar",
+		"Egil",
+		"Harald",
+		"Sigismund"
+	],
+	"SkirmishReplacements":
+	{
+    "skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}
