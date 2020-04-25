@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman_hoplite">
+  <Auras datatype="tokens">
+    units/heroes/spart_hero_angry_wife
+  </Auras>
+  <Identity>
+    <Civ>spart</Civ>
+    <Lang>greek</Lang>
+    <GenericName>The Angry wife, 1st of her name.</GenericName>
+    <SpecificName>Helga</SpecificName>
+    <Icon>units/spart_angry_wife.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/spartans/hero_infantry_spearman_angry_wife.xml</Actor>
+  </VisualActor>
+</Entity>

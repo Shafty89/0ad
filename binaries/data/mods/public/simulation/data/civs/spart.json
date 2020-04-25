@@ -42,12 +42,19 @@
 					"Emblem":"",
 					"History":"The king of Sparta, who fought and died at the battle of Thermopylae in 480 B.C. He successfully blocked the way of the huge Persian army through the narrow passage with his 7000 men, until Xerxes was made aware of a secret unobstructed path. Finding the enemy at his rear, Leonidas sent home most of his troops, choosing to stay behind with 300 hand-picked hoplites and win time for the others to withdraw."
 				},
-				{
-					"Name":"Brasidas",
+        {
+          "Name": "Brasidas",
+          "Class": "",
+          "Armament": "",
+          "Emblem": "",
+          "History": "Because Brasidas has sponsored their citizenship in return for service, Helot Skirmishers fight longer and harder for Sparta while within range of him."
+        },
+        {
+					"Name":"Angry wife (Helga)",
 					"Class":"",
 					"Armament":"",
 					"Emblem":"",
-					"History":"Because Brasidas has sponsored their citizenship in return for service, Helot Skirmishers fight longer and harder for Sparta while within range of him."
+					"History":"What can be more fearful than an angry wife?!"
 				},
 				{
 					"Name":"Agis III",
@@ -116,10 +123,10 @@
 		{
 			"Template": "structures/spart_civil_centre"
 		},
-		{
-			"Template": "units/spart_support_female_citizen",
-			"Count": 4
-		},
+    {
+      "Template": "units/spart_support_female_citizen",
+      "Count": 4
+    },
 		{
 			"Template": "units/spart_infantry_spearman_b",
 			"Count": 2

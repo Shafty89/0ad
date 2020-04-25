@@ -40,6 +40,7 @@
       units/{civ}_hero_leonidas
       units/{civ}_hero_brasidas
       units/{civ}_hero_agis
+      units/{civ}_hero_angry_wife
     </Entities>
     <Technologies datatype="tokens">
       hellenes/spartans_agoge
