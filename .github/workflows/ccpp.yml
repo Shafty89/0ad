@@ -7,11 +7,11 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  build and test:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-    - name: update-workspace
-      run: .\build\workspaces\update-workspaces.bat
+    - name: build-test
+      run: ./ubuntu-build.sh
