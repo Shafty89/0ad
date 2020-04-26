@@ -7,7 +7,7 @@ export SHEL=/bin/bash
 sudo ./ubuntu-dependencies.sh
 
 # number of CPU Core
-n=`cat /proc/cpuinfo | grep "cpu cores" | uniq | awk {print $NF}`
+n=`cat /proc/cpuinfo | grep "cpu cores" | uniq | awk '{print $NF}'`
 
 # build workspace
 set -e
