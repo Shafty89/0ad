@@ -7,7 +7,7 @@
     </Entities>
   </Builder>
   <Identity>
-    <Civ>gaul</Civ>
+    <Civ>vikin</Civ>
     <SelectionGroupName>units/gaul_infantry_slinger_b</SelectionGroupName>
     <GenericName>Celtic Slinger</GenericName>
     <SpecificName>Talmoris</SpecificName>

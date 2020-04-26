@@ -7,7 +7,7 @@
     </Entities>
   </Builder>
   <Identity>
-    <Civ>gaul</Civ>
+    <Civ>vikin</Civ>
     <SelectionGroupName>units/gaul_infantry_spearman_b</SelectionGroupName>
     <SpecificName>Catucos</SpecificName>
     <Icon>units/gaul_infantry_spearman.png</Icon>
