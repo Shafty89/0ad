@@ -11,3 +11,10 @@ apt install libopencv-dev libboost-dev libboost-all-dev libboost-filesystem-dev 
 apt install libwebkit --allow-unauthenticated 
 apt install wx3.0-headers=3.0.4+dfsg-8 libwxbase3.0-dev=3.0.4+dfsg-8 libwxgtk3.0-dev=3.0.4+dfsg-8 libwxbase3.0-0v5=3.0.4+dfsg-8 libwxgtk3.0-0v5=3.0.4+dfsg-8s --allow-unauthenticated
 apt policy wx3.0-headers libwxgtk3.0-dev --allow-unauthenticated
+
+# install boost manually
+wget -O boost_1_70_0.tar.gz https://dl.bintray.com/boostorg/release/1.70.0/source/boost_1_70_0.tar.gz
+tar -xf boost_1_70_0.tar.gz
+cd ./boost_1_70_0
+./bootstrap.sh --with-libraries=filesystem,system
+./b2 install
