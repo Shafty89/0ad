@@ -25,6 +25,4 @@ jobs:
     - name: Install dependencies
       run: sudo ./ubuntu-dependencies.sh  
     - name: Build and Test
-      uses: skx/github-action-tester@master
-      with:
-        script: ./ubuntu-build.sh
+      run: ./ubuntu-build.sh
