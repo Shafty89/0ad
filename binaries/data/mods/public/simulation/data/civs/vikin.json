@@ -1,9 +1,9 @@
 {
-	"Code": "gaul",
+	"Code": "vikin",
 	"Culture": "celt",
 	"Name": "Vikings",
 	"Emblem": "session/portraits/emblems/emblem_vikings.png",
-	"History": "Norse people primarily from southern Scandinavia. From the late 8th to late 11th centuries, Vikings raided and traded from their Northern European homelands across wide areas of Europe, and explored westwards to Iceland, Greenland, and Vinland (Wikipedia, Vikings)",
+	"History": "Norse people primarily from southern Scandinavia. From the late 8th to late 11th centuries, Vikings raided and traded from their Northern European homelands across wide areas of Europe, and explored westwards to Iceland, Greenland, and Vinland.",
 	"Music":[
 			{"File":"Celtic_Pride.ogg", "Type":"peace"},
 			{"File":"Cisalpine_Gaul.ogg", "Type":"peace"},
@@ -91,27 +91,27 @@
 	"WallSets":
 	[
 		"structures/wallset_palisade",
-		"structures/gaul_wallset_stone"
+		"structures/vikin_wallset_stone"
 	],
 	"StartEntities":
 	[
     {
-      "Template": "structures/gaul_civil_centre"
+      "Template": "structures/vikin_civil_centre"
     },
 		{
-			"Template": "units/gaul_support_female_citizen",
+			"Template": "units/vikin_support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/gaul_infantry_spearman_b",
+			"Template": "units/vikin_infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/gaul_infantry_javelinist_b",
+			"Template": "units/vikin_infantry_javelinist_b",
 			"Count": 2
 		},
     {
-      "Template": "units/gaul_cavalry_javelinist_b"
+      "Template": "units/vikin_cavalry_javelinist_b"
     }
 
 	],
