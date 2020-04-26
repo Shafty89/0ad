@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Spearman", "Worker"],
+	"modifications": [
+    { "value": "ResourceGatherer/BaseSpeed", "multiply": 1.15 },
+	  { "value": "Attack/Melee/Damage/Hack", "multiply": 1.25 },
+    { "value": "Attack/Melee/Damage/Pierce", "multiply": 1.25 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.25 }
+  ],
+	"auraName": "Systematic warfare",
+	"auraDescription": "Spearmen gain 25% attack. Workers +15% gather speed."
+}
