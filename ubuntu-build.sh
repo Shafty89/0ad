@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# fix the fucking error with stupid github action
+export SHELL=/bin/bash
+
 # build workspace
 set -e
 cd build/workspaces/
