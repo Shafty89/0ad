@@ -11,10 +11,9 @@ n=`cat /proc/cpuinfo | grep "cpu cores" | uniq | awk '{print $NF}'`
 
 # build workspace
 set -e
-svn up
 cd build/workspaces/
 ./clean-workspaces.sh
-./update-workspaces.sh --with-system-nvtt --with-system-mozjs45 -j $n
+./update-workspaces.sh --with-system-enet --with-system-nvtt --with-system-mozjs45 --disable-atlas -j $n
 
 # build tests
 cd gcc

@@ -7,7 +7,7 @@ apt-add-repository ppa:boost-latest/ppa
 add-apt-repository ppa:mhier/libboost-latest
 apt update --allow-insecure-repositories
 
-apt-get install build-essential cmake libboost-dev libboost-filesystem-dev libcurl4-gnutls-dev libenet-dev libgloox-dev libicu-dev libminiupnpc-dev libnvtt-dev libogg-dev libopenal-dev libpng-dev libsdl2-dev libvorbis-dev libxcursor-dev libxml2-dev python subversion zlib1g-dev libenet-dev libboost-system-dev
+apt-get install build-essential cmake libboost-dev libboost-filesystem-dev libcurl4-gnutls-dev libenet-dev libgloox-dev libicu-dev libminiupnpc-dev libnvtt-dev libogg-dev libopenal-dev libpng-dev libsdl2-dev libvorbis-dev libxcursor-dev libxml2-dev python subversion zlib1g-dev libboost-system-dev libsodium-dev libmozjs-45-dev
 apt install libwebkit --allow-unauthenticated 
 apt install wx3.0-headers=3.0.4+dfsg-8 libwxbase3.0-dev=3.0.4+dfsg-8 libwxgtk3.0-dev=3.0.4+dfsg-8 libwxbase3.0-0v5=3.0.4+dfsg-8 libwxgtk3.0-0v5=3.0.4+dfsg-8s --allow-unauthenticated
 apt policy wx3.0-headers libwxgtk3.0-dev --allow-unauthenticated
