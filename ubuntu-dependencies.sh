@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # install requirements
 apt-add-repository 'deb http://repos.codelite.org/wx3.1.0/ubuntu/ artful universe'
