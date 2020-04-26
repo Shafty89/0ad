@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # fix issue with github action
-export SHEL=/bin/bash
+export SHELL=/bin/bash
 
 # install requirements
 sudo ./ubuntu-dependencies.sh
