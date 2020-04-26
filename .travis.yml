@@ -1,0 +1,8 @@
+language: cpp
+os: linux
+
+before_install:
+	- sudo ./ubuntu-dependencies.sh
+
+script:
+	- ./ubuntu-build.sh
