@@ -8,7 +8,7 @@
   <Identity>
     <Civ>vikin</Civ>
     <GenericName>Norse Woman</GenericName>
-    <SpecificName>Bena</SpecificName>
+    <SpecificName>Kvinnelig Arbeider</SpecificName>
     <Icon>units/celt_support_female_citizen.png</Icon>
     <SelectionGroupName>units/vikin_support_female_citizen</SelectionGroupName>
   </Identity>

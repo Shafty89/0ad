@@ -3,7 +3,7 @@
   <Identity>
     <Civ>vikin</Civ>
     <SelectionGroupName>units/gaul_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName>Marcacos</SpecificName>
+    <SpecificName>Spyd Rytter</SpecificName>
     <Icon>units/gaul_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>

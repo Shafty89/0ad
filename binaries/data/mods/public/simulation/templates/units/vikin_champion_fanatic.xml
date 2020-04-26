@@ -14,7 +14,7 @@
   <Identity>
     <Civ>vikin</Civ>
     <GenericName>Naked Fanatic</GenericName>
-    <SpecificName>Bariogaisatos</SpecificName>
+    <SpecificName>Naken Fanatiker</SpecificName>
     <Icon>units/gaul_champion_fanatic.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
