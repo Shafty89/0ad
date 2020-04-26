@@ -2,12 +2,12 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, fix/fucking-github ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, fix/fucking-github ]
 
 jobs:
-  build and test:
+  build_test:
 
     runs-on: ubuntu-latest
 

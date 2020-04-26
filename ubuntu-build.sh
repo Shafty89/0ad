@@ -6,20 +6,16 @@ export SHEL=/bin/bash
 # install requirements
 sudo ./ubuntu-dependencies.sh
 
-# number of CPU Core
-n=`cat /proc/cpuinfo | grep "cpu cores" | uniq | awk '{print $NF}'`
-
 # build workspace
-set -e
 cd build/workspaces/
-./clean-workspaces.sh
-./update-workspaces.sh --with-system-nvtt --with-system-mozjs45 --disable-atlas -j $n
+./clean-workspaces.sh -j5
+./update-workspaces.sh -j5
 
 # build tests
 cd gcc
 make clean
-make -j $n
-make test -j $n
+make -j5
+make test -j5
 
 # run tests
 ../../../binaries/system/test
