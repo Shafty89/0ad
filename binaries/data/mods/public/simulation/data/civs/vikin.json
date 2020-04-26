@@ -19,12 +19,12 @@
 			"Technologies":
 			[
 				{
-					"Name": "Sevili Dusios",
+					"Name": "Skremmende",
 					"History": "The Vikings took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect was very frightening.",
 					"Description": "Increased attack and movement rate for melee soldiers."
 				},
 				{
-					"Name": "Vae Victis",
+					"Name": "Raiding Partier",
 					"History": "Woe to the Defeated! The Vikings live by raiding!",
 					"Description": "A set amount of metal and food from every structure destroyed or captured."
 				}
@@ -58,31 +58,31 @@
 	"CivBonuses":
 	[
 		{
-			"Name": "Ardiosmanae",
-			"History": "Represents Celtic farming methods. ",
+			"Name": "Fjelloppdrett",
+			"History": "Farming/ranching production was scarse, but they made the most out of it.",
 			"Description": "Enhanced food gained from ranching and farming. "
 		},
 		{
-			"Name": "Deas Celtica",
-			"History": "Celtic religion and druidry inspired their warlike mindset. ",
+			"Name": "Seerland",
+			"History": "Vikings trust seer visions and will make the soldiers more fierce in combat.",
 			"Description": "Druids increase attack rates of soldiers near them slightly."
 		}
 	],
 	"TeamBonuses":
 	[
 		{
-			"Name": "Druids",
-			"History": "The Druids of the Celts maintained an organized religion that advanced the technology of their people even during wartime.",
+			"Name": "Seers",
+			"History": "Being a seer is a calling, not an occupation.",
 			"Description": "Allied Healers −20% resource costs."
 		}
 	],
 	"Structures":
 	[
 		{
-			"Name": "Melonas",
+			"Name": "Mølle",
 			"Class": "",
 			"Emblem": "",
-			"History": "The Celts developed the first rotary flour mill.",
+			"History": "Vikings version of the rotary flour mill.",
 			"Requirements": "",
 			"Phase": "",
 			"Special": ""
