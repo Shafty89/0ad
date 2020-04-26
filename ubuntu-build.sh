@@ -9,7 +9,7 @@ sudo ./ubuntu-dependencies.sh
 # build workspace
 cd build/workspaces/
 ./clean-workspaces.sh
-./update-workspaces.sh -j5
+./update-workspaces.sh --with-system-nvtt --with-system-mozjs45 -j5
 
 # build tests
 cd gcc

@@ -7,14 +7,7 @@ apt-add-repository ppa:boost-latest/ppa
 add-apt-repository ppa:mhier/libboost-latest
 apt update --allow-insecure-repositories
 
-apt install libopencv-dev libboost-dev libboost-all-dev libboost-filesystem-dev libboost-python-dev libboost1.68-dev libboost1.68 python-dev build-essential cmake gcc python2.7 libcurl4-openssl-dev libenet-dev libgloox-dev libicu-dev libogg-dev libpng-dev libsodium-dev libvorbis-dev libxcursor-dev libxml2-dev miniupnpc libopenal-dev freeglut3-dev libsdl2-dev libpng-dev libwebkitgtk libminiupnpc-dev g++
-apt install libwebkit --allow-unauthenticated
+apt install libopencv-dev libboost-dev libboost-all-dev libboost-filesystem-dev libboost-python-dev libboost1.68-dev libboost1.68 python-dev build-essential cmake gcc python libcurl4-openssl-dev libenet-dev libgloox-dev libicu-dev libogg-dev libpng-dev libsodium-dev libvorbis-dev libxcursor-dev libxml2-dev miniupnpc libopenal-dev freeglut3-dev libsdl2-dev libpng-dev libwebkitgtk libminiupnpc-dev g++ libnvtt-dev subversion zlib1g-dev libboost-system-dev libmozjs-45-dev
+apt install libwebkit --allow-unauthenticated 
+apt install wx3.0-headers=3.0.4+dfsg-8 libwxbase3.0-dev=3.0.4+dfsg-8 libwxgtk3.0-dev=3.0.4+dfsg-8 libwxbase3.0-0v5=3.0.4+dfsg-8 libwxgtk3.0-0v5=3.0.4+dfsg-8s --allow-unauthenticated
 apt policy wx3.0-headers libwxgtk3.0-dev --allow-unauthenticated
-apt-get install libwxbase3.1-0-unofficial libwxbase3.1-dev libwxgtk3.1-0-unofficial libwxgtk3.1-dev wx3.1-headers wx-common libwxgtk-webview3.1-0-unofficial libwxgtk-webview3.1-dev libwxgtk-media3.1-0-unofficial libwxgtk-media3.1-dev libwxbase3.1-0-unofficial-dbg libwxgtk-webview3.1-0-unofficial-dbg libwxgtk-media3.1-0-unofficial-dbg wx3.1-i18n wx3.1-examples --allow-unauthenticated
-
-# install boost manually
-wget -O https://dl.bintray.com/boostorg/release/1.70.0/source/boost_1_70_0.tar.gz
-tar -xf boost_1_70_0.tar.gz
-cd ./boost_1_70_0
-./bootstrap.sh --with-libraries=filesystem,system
-./b2 install
