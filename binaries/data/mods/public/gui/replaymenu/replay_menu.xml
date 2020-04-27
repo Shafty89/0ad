@@ -135,11 +135,12 @@
 			<!-- Right panel: Replay details -->
 			<object name="replayInfo" size="0 120 100% 100%-60" type="image" sprite="ModernDarkBoxGold" hidden="true">
 
-				<!-- Map Name Label -->
-				<object name="sgMapName" size="0 5 100% 20" type="text" style="ModernLabelText"/>
+				<!-- Map Name Label "0 5 100% 20" -->
+				<object name="sgMapName" size="0 10 100% 40" type="text" style="ModernLabelText"/>
 
 				<!-- Map Preview Image -->
-				<object name="sgMapPreview" size="5 25 100%-5 190"  type="image" sprite=""/>
+				<object name="sgMapPreview" size="5 45 100%-5 190"  type="image" sprite=""/>
+
 
 				<!-- Separator Line -->
 				<object size="5 194 100%-5 195" type="image" sprite="ModernWhiteLine" z="25"/>
