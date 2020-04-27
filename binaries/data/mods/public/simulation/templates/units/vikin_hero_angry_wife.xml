@@ -5,10 +5,10 @@
   </Auras>
   <Identity>
     <Civ>vikin</Civ>
-    <Lang>greek</Lang>
     <GenericName>The Angry wife, 1st of her name.</GenericName>
     <SpecificName>Helga</SpecificName>
-    <Icon>units/spart_angry_wife.png</Icon>
+    <Phenotype>female</Phenotype>
+    <Icon>units/vikin_angry_wife.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/hero_infantry_spearman_angry_wife.xml</Actor>
