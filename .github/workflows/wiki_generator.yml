@@ -24,4 +24,4 @@ jobs:
         REPO_NAME: 0ad
         SKIP_MD: README.md
         WIKI_PUSH_MESSAGE: "Update Wiki Page"
-        GITHUB_TOKEN: 8f4fc12929d24c431826769bae1f1373de40d6e7
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
