@@ -3,8 +3,8 @@
 # fix issue with github action
 export SHELL=/bin/bash
 
-# navigate to tests
-cd ../../../binaries/system
+# navigate to test bundle
+cd build/workspaces/gcc/
 
 # run tests
-test
+../../../binaries/system/test
