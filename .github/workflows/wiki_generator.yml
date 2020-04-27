@@ -13,8 +13,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: wiki-page-creator-action
-        uses: Decathlon/wiki-page-creator-action@v2.0.0
+    - name: Upload Release Notes to Wiki
+      uses: docker://decathlon/wiki-page-creator-action:2.0.1
         env:
         GH_PAT: 8f4fc12929d24c431826769bae1f1373de40d6e7
         ACTION_MAIL: h-shahbazi@hotmail.com
