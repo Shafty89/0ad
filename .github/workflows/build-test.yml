@@ -2,9 +2,9 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ master, CI/add-wiki-generator ]
+    branches: [ master ]
   pull_request:
-    branches: [ master, CI/add-wiki-generator ]
+    branches: [ master ]
 
 jobs:
   build_test:
@@ -29,17 +29,3 @@ jobs:
 
     - name: run tests
       run: ./ubuntu-tests.sh
-
-    generate_wiki:
-      runs-on: ubuntu-latest
-
-    steps:
-    - name: wiki-page-creator-action
-      uses: Decathlon/wiki-page-creator-action@v2.0.0
-      env:
-        GH_PAT: 8f4fc12929d24c431826769bae1f1373de40d6e7
-        ACTION_MAIL: h-shahbazi@hotmail.com
-        ACTION_NAME: Hassaniiii
-        OWNER: Shafty89
-        REPO_NAME: Shafty89/0ad 
-        MD_FOLDER: docs/wiki/
