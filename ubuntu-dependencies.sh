@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# fix issue with github action
+export SHELL=/bin/bash
+
 # install requirements
 apt-add-repository 'deb http://repos.codelite.org/wx3.1.0/ubuntu/ artful universe'
 apt-add-repository 'deb http://cz.archive.ubuntu.com/ubuntu bionic main universe'

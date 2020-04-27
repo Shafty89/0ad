@@ -21,5 +21,11 @@ jobs:
         docker rmi $(docker image ls -aq)
         df -h
 
-    - name: build-test
+    - name: install dependencies
+      run: sudo ./ubuntu-dependencies.sh
+
+    - name: build the project
       run: ./ubuntu-build.sh
+
+    - name: run tests
+      run: ./ubuntu-tests.sh
