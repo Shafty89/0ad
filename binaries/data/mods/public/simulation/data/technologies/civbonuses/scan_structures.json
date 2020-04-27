@@ -1,0 +1,14 @@
+{
+	"genericName": "Wooden Construction",
+	"autoResearch": true,
+	"description": "Viking structures were mostly made of wood which made them quicker to build, but more fragile to fire.",
+	"requirements": {"civ": "vikin" },
+	"icon": "wooden_buildings.png",
+	"tooltip": "Viking Structures −30% build time, −30% health, and −30% capture points.",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 0.7 },
+		{ "value": "Capturable/CapturePoints", "multiply": 0.7 },
+		{ "value": "Cost/BuildTime", "multiply": 0.7 }
+	],
+	"affects": ["Structure"]
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_infantry_swordsman">
   <Auras datatype="tokens">
-    units/heroes/viking_hero_ragnar
+    units/heroes/vikin_hero_ragnar
   </Auras>
   <Identity>
     <Civ>vikin</Civ>
