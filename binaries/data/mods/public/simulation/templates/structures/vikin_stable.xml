@@ -5,7 +5,7 @@
     <SpecificName>Stud</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/gauls/stable.xml</Actor>
-    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+    <Actor>structures/britons/stable.xml</Actor>
+    <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

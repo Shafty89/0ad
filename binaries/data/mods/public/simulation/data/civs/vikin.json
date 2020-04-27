@@ -20,7 +20,7 @@
 			[
 				{
 					"Name": "Skremmende",
-					"History": "The Vikings took up the practice of either making permanent marks on their body in the form of tattoos or temporarily painted their bodies with woad paint. The effect was very frightening.",
+					"History": "Vikings where a frightening view with their war paintings and they where very fast on foot",
 					"Description": "Increased attack and movement rate for melee soldiers."
 				},
 				{
@@ -59,12 +59,12 @@
 	[
 		{
 			"Name": "Fjelloppdrett",
-			"History": "Farming/ranching production was scarse, but they made the most out of it.",
+			"History": "Farming/ranching production in Scandinavia was scarse, but they made the most out of it.",
 			"Description": "Enhanced food gained from ranching and farming. "
 		},
 		{
 			"Name": "Seerland",
-			"History": "Vikings trust seer visions and will make the soldiers more fierce in combat.",
+			"History": "Scandinavians trusted seers visions. While present, they will inspire the soldiers fight more fiercly.",
 			"Description": "Druids increase attack rates of soldiers near them slightly."
 		}
 	],
