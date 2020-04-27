@@ -7,6 +7,29 @@ on:
     branches: [ master ]
 
 jobs:
+  build_test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: free disk space
+      run: |
+        sudo swapoff -a
+        sudo rm -f /swapfile
+        sudo apt clean
+        docker rmi $(docker image ls -aq)
+        df -h
+
+    - name: install dependencies
+      run: sudo ./ubuntu-dependencies.sh
+
+    - name: build the project
+      run: ./ubuntu-build.sh
+
+    - name: run tests
+      run: ./ubuntu-test.sh
+
   generate_wiki:
     runs-on: ubuntu-latest
 
