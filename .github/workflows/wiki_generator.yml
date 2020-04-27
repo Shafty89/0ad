@@ -1,0 +1,27 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ master, CI/add-wiki-generator ]
+  pull_request:
+    branches: [ master, CI/add-wiki-generator ]
+
+jobs:
+  generate_wiki:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Upload Release Notes to Wiki
+      uses: docker://decathlon/wiki-page-creator-action:latest
+      env:
+        ACTION_MAIL: hassaniiii@users.noreply.github.com
+        ACTION_NAME: hassaniiii
+        GH_PAT: ${{ secrets.GH_PAT }}
+        MD_FOLDER: docs/wiki/
+        OWNER: Shafty89
+        REPO_NAME: 0ad
+        SKIP_MD: README.md
+        WIKI_PUSH_MESSAGE: "Update Wiki Page"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
