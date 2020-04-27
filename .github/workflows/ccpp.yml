@@ -29,3 +29,13 @@ jobs:
 
     - name: run tests
       run: ./ubuntu-tests.sh
+
+    - name: wiki-page-creator-action
+      uses: Decathlon/wiki-page-creator-action@v2.0.0
+      env:
+        GH_PAT: 8f4fc12929d24c431826769bae1f1373de40d6e7
+        ACTION_MAIL: h-shahbazi@hotmail.com
+        ACTION_NAME: Hassaniiii
+        OWNER: Shafty89
+        REPO_NAME: Shafty89/0ad 
+        MD_FOLDER: docs/wiki/
