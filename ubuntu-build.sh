@@ -10,5 +10,5 @@ cd build/workspaces/
 # make project and tests
 cd gcc
 make clean
-make -j $n
-
+make -j5
+make test -j5
