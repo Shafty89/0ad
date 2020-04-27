@@ -21,5 +21,6 @@ jobs:
         GH_PAT: 8f4fc12929d24c431826769bae1f1373de40d6e7
         MD_FOLDER: docs/wiki/
         OWNER: Shafty89
-        REPO_NAME: Shafty89/0ad
+        REPO_NAME: 0ad
         SKIP_MD: README.md
+        WIKI_PUSH_MESSAGE: "Update Wiki Page"
