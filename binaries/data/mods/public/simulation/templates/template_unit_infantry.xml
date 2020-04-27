@@ -45,6 +45,7 @@
       structures/{civ}_workshop
       structures/{civ}_fortress
       structures/{civ}_wonder
+      structures/{civ}_axehall
     </Entities>
   </Builder>
   <Cost>
