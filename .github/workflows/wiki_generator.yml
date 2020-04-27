@@ -2,9 +2,9 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ master, CI/add-wiki-generator ]
+    branches: [ master ]
   pull_request:
-    branches: [ master, CI/add-wiki-generator ]
+    branches: [ master ]
 
 jobs:
   generate_wiki:
