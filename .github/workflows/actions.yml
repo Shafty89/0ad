@@ -1,0 +1,50 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build_test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: free disk space
+      run: |
+        sudo swapoff -a
+        sudo rm -f /swapfile
+        sudo apt clean
+        docker rmi $(docker image ls -aq)
+        df -h
+
+    - name: install dependencies
+      run: sudo ./ubuntu-dependencies.sh
+
+    - name: build the project
+      run: ./ubuntu-build.sh
+
+    - name: run tests
+      run: ./ubuntu-test.sh
+
+  generate_wiki:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Upload Release Notes to Wiki
+      uses: docker://decathlon/wiki-page-creator-action:latest
+      env:
+        ACTION_MAIL: hassaniiii@users.noreply.github.com
+        ACTION_NAME: hassaniiii
+        GH_PAT: ${{ secrets.GH_PAT }}
+        MD_FOLDER: docs/wiki/
+        OWNER: Shafty89
+        REPO_NAME: 0ad
+        SKIP_MD: README.md
+        WIKI_PUSH_MESSAGE: "Update Wiki Page"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
