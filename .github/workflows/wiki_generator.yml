@@ -16,8 +16,8 @@ jobs:
     - name: Upload Release Notes to Wiki
       uses: docker://decathlon/wiki-page-creator-action:latest
       env:
-        ACTION_MAIL: h-shahbazi@hotmail.com
-        ACTION_NAME: Hassaniiii
+        ACTION_MAIL: hassaniiii@users.noreply.github.com
+        ACTION_NAME: hassaniiii
         GH_PAT: ${{ secrets.GH_PAT }}
         MD_FOLDER: docs/wiki/
         OWNER: Shafty89
