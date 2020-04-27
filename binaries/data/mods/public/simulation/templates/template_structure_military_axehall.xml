@@ -28,7 +28,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_axe_infantry
+      units/{civ}_infantry_axeman_b
     </Entities>
   </ProductionQueue>
   <Sound>
