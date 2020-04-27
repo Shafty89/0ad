@@ -29,7 +29,3 @@ jobs:
 
     - name: run tests
       run: ./ubuntu-tests.sh
-
-    wiki_generate:
-      runs-on: ubuntu-latest
-      
