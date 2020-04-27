@@ -2,21 +2,34 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, fix/fucking-github ]
+  pull_request:
+    branches: [ master, fix/fucking-github ]
 
 jobs:
   build_test:
-
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [2.7]
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v1
-      with:
-        python-version: ${{ matrix.python-version }}
-    - name: Build and Test
+    
+    - name: free disk space
+      run: |
+        sudo swapoff -a
+        sudo rm -f /swapfile
+        sudo apt clean
+        docker rmi $(docker image ls -aq)
+        df -h
+
+    - name: install dependencies
+      run: sudo ./ubuntu-dependencies.sh
+
+    - name: build the project
       run: ./ubuntu-build.sh
+
+    - name: run tests
+      run: ./ubuntu-tests.sh
+
+    wiki_generate:
+      runs-on: ubuntu-latest
+      
