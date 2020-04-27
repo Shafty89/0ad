@@ -14,6 +14,7 @@
       units/{civ}_hero_ragnar
       units/{civ}_hero_leif
       units/{civ}_hero_erik
+      units/{civ}_hero_angry_wife
     </Entities>
   </ProductionQueue>
   <Sound>
