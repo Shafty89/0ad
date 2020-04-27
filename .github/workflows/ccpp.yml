@@ -2,9 +2,9 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ master, fix/fucking-github ]
+    branches: [ master, CI/add-wiki-generator ]
   pull_request:
-    branches: [ master, fix/fucking-github ]
+    branches: [ master, CI/add-wiki-generator ]
 
 jobs:
   build_test:
@@ -30,6 +30,10 @@ jobs:
     - name: run tests
       run: ./ubuntu-tests.sh
 
+    generate_wiki:
+      runs-on: ubuntu-latest
+
+    steps:
     - name: wiki-page-creator-action
       uses: Decathlon/wiki-page-creator-action@v2.0.0
       env:
