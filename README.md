@@ -1,4 +1,4 @@
- 0 A.D. Introductory Information
+ 0 A.D. Introductory Information ![C/C++ CI](https://github.com/Shafty89/0ad/workflows/C/C++%20CI/badge.svg?branch=master)
 =================================
 
 0 A.D. (pronounced "zero ey-dee") is a free, open-source, cross-platform
